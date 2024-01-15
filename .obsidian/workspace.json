@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "6f569063dbe0b382",
+    "type": "split",
+    "children": [
+      {
+        "id": "62bf7cff02110eff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aac862683287ada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AZ-204.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf7fce2d8d51d08b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e13eb1f55c18301e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c228c31dea3f613",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d0035dc29dc9182c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "58d84ffbabbffca1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2b9c1c0eb4760a58",
+    "type": "split",
+    "children": [
+      {
+        "id": "967a729c0cdadf3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dc4da76ab833fa2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AZ-204.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65ffc470b629c7ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AZ-204.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ed7c23b12c4005c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ac11630653ac91af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AZ-204.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7aac862683287ada",
+  "lastOpenFiles": [
+    "Connect to and consume Azure services and third-party services (15–20%).md",
+    "Develop message-based solutions.md",
+    "Develop event-based solutions.md",
+    "Implement API Management.md",
+    "AZ-204.md",
+    "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
+    "Troubleshoot solutions by using Application Insights.md",
+    "Implement caching for solutions.md",
+    "Implement Azure security (20–25%).md",
+    "Implement secure Azure solutions.md",
+    "Implement user authentication and authorization.md",
+    "Develop for Azure storage (15–20%).md",
+    "Develop solutions that use Azure Blob Storage.md",
+    "Develop solutions that use Azure Cosmos DB.md",
+    "Develop Azure compute solutions (25–30%).md",
+    "Implement containerized solutions.md",
+    "Implement Azure Functions.md",
+    "Implement Azure App Service Web Apps.md",
+    "README.md",
+    "Untitled 1.md",
+    "Untitled.md"
+  ]
+}
