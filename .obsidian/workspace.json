@@ -148,11 +148,14 @@
   },
   "active": "7aac862683287ada",
   "lastOpenFiles": [
+    "README.md",
+    "AZ-204.md",
+    "Azure Container Instances.md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
+    "Develop Azure compute solutions (25–30%).md",
     "Develop message-based solutions.md",
     "Develop event-based solutions.md",
     "Implement API Management.md",
-    "AZ-204.md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
     "Troubleshoot solutions by using Application Insights.md",
     "Implement caching for solutions.md",
@@ -162,11 +165,9 @@
     "Develop for Azure storage (15–20%).md",
     "Develop solutions that use Azure Blob Storage.md",
     "Develop solutions that use Azure Cosmos DB.md",
-    "Develop Azure compute solutions (25–30%).md",
     "Implement containerized solutions.md",
     "Implement Azure Functions.md",
     "Implement Azure App Service Web Apps.md",
-    "README.md",
     "Untitled 1.md",
     "Untitled.md"
   ]
