@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AZ-204.md",
+                "file": "Connect to and consume Azure services and third-party services (15–20%).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AZ-204.md",
+                "file": "Connect to and consume Azure services and third-party services (15–20%).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AZ-204.md",
+                "file": "Connect to and consume Azure services and third-party services (15–20%).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AZ-204.md"
+                "file": "Connect to and consume Azure services and third-party services (15–20%).md"
               }
             }
           }
@@ -148,23 +148,35 @@
   },
   "active": "7aac862683287ada",
   "lastOpenFiles": [
-    "README.md",
-    "AZ-204.md",
-    "Azure Container Instances.md",
-    "Connect to and consume Azure services and third-party services (15–20%).md",
+    "media/Pasted image 20240123085408.png",
+    "media/Pasted image 20240123085358.png",
+    "media/Pasted image 20240123085348.png",
+    "Troubleshoot solutions by using Application Insights.md",
+    "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
+    "media/Pasted image 20240123084712.png",
+    "media/Pasted image 20240123084641.png",
+    "media/Pasted image 20240123084627.png",
+    "Implement Azure security (20–25%).md",
+    "media/Pasted image 20240123083134.png",
+    "media/Pasted image 20240123083108.png",
+    "media/Pasted image 20240123083055.png",
+    "Develop for Azure storage (15–20%).md",
+    "media/Pasted image 20240123082230.png",
+    "media/Pasted image 20240123082214.png",
     "Develop Azure compute solutions (25–30%).md",
+    "Connect to and consume Azure services and third-party services (15–20%).md",
+    "media",
+    "AZ-204.md",
+    "Develop solutions that use Azure Cosmos DB.md",
+    "README.md",
+    "Azure Container Instances.md",
     "Develop message-based solutions.md",
     "Develop event-based solutions.md",
     "Implement API Management.md",
-    "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
-    "Troubleshoot solutions by using Application Insights.md",
     "Implement caching for solutions.md",
-    "Implement Azure security (20–25%).md",
     "Implement secure Azure solutions.md",
     "Implement user authentication and authorization.md",
-    "Develop for Azure storage (15–20%).md",
     "Develop solutions that use Azure Blob Storage.md",
-    "Develop solutions that use Azure Cosmos DB.md",
     "Implement containerized solutions.md",
     "Implement Azure Functions.md",
     "Implement Azure App Service Web Apps.md",
