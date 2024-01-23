@@ -1,0 +1,5 @@
+![](media/Pasted%20image%2020240123085928.png)
+![](media/Pasted%20image%2020240123090011.png)
+[AZ-204: Desenvolver soluções que usam o Azure Cosmos DB - Training | Microsoft Learn](https://learn.microsoft.com/pt-br/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/)
+[Escolher nível certo de consistência - Training | Microsoft Learn](https://learn.microsoft.com/pt-br/training/modules/explore-azure-cosmos-db/5-choose-cosmos-db-consistency-level)
+[Opções de nível de coerência - Azure Cosmos DB | Microsoft Learn](https://learn.microsoft.com/pt-br/azure/cosmos-db/consistency-levels)
