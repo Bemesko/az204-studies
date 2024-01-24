@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure Cosmos DB.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure Cosmos DB.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure Cosmos DB.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Cosmos DB.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,26 +148,25 @@
   },
   "active": "7aac862683287ada",
   "lastOpenFiles": [
+    "Azure Cosmos DB.md",
+    "media/Pasted image 20240124090144.png",
+    "media/Pasted image 20240124085644.png",
+    "media/Pasted image 20240124075550.png",
+    "media/Pasted image 20240124074114.png",
+    "media/Pasted image 20240124073718.png",
+    "media/Pasted image 20240124073642.png",
+    "media/Pasted image 20240124073639.png",
+    "media/Pasted image 20240124073527.png",
+    "Develop for Azure storage (15–20%).md",
+    "AZ-204.md",
     "media/Pasted image 20240123090011.png",
     "media/Pasted image 20240123090005.png",
-    "media/Pasted image 20240123085928.png",
-    "AZ-204.md",
-    "Azure Cosmos DB.md",
     "Develop Azure compute solutions (25–30%).md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
     "README.md",
-    "media/Pasted image 20240123085408.png",
-    "media/Pasted image 20240123085358.png",
-    "media/Pasted image 20240123085348.png",
     "Troubleshoot solutions by using Application Insights.md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
-    "media/Pasted image 20240123084712.png",
-    "media/Pasted image 20240123084641.png",
-    "media/Pasted image 20240123084627.png",
     "Implement Azure security (20–25%).md",
-    "media/Pasted image 20240123083134.png",
-    "media/Pasted image 20240123083108.png",
-    "Develop for Azure storage (15–20%).md",
     "media",
     "Develop solutions that use Azure Cosmos DB.md",
     "Azure Container Instances.md",
