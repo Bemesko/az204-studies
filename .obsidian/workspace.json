@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AZ-204.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AZ-204.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AZ-204.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AZ-204.md"
               }
             }
           }
@@ -148,21 +148,22 @@
   },
   "active": "7aac862683287ada",
   "lastOpenFiles": [
-    "AZ-204.md",
     "README.md",
+    "media/Pasted image 20240126093048.png",
+    "Azure Container Apps.md",
+    "AZ-204.md",
+    "media/Pasted image 20240126091547.png",
+    "media/Pasted image 20240126091141.png",
+    "Develop Azure compute solutions (25–30%).md",
+    "media/Pasted image 20240126074809.png",
+    "media/Pasted image 20240126074803.png",
     "Azure Cosmos DB.md",
     "media/Pasted image 20240125093119.png",
     "media/Pasted image 20240125083319.png",
     "media/Pasted image 20240124090144.png",
     "media/Pasted image 20240124085644.png",
     "media/Pasted image 20240124075550.png",
-    "media/Pasted image 20240124074114.png",
-    "media/Pasted image 20240124073718.png",
-    "media/Pasted image 20240124073642.png",
-    "media/Pasted image 20240124073639.png",
-    "media/Pasted image 20240124073527.png",
     "Develop for Azure storage (15–20%).md",
-    "Develop Azure compute solutions (25–30%).md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
     "Troubleshoot solutions by using Application Insights.md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",

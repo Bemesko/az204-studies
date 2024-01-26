@@ -1,6 +1,9 @@
 This is the Obsidian vault I'm using to study for the [[AZ-204]] Microsoft exam. I'll be updating it with my notes and use them to try to make sense of it all.
 
-Days until exam: 35
+Days until exam: 34
+
+Current state of the vault:
+![](media/Pasted%20image%2020240126093048.png)
 ## Study Stages
 - Take at least 1 practice assesment per week
 - Listen to my AZ204 YouTube playlist during my downtime
@@ -8,12 +11,15 @@ Days until exam: 35
 - [x] Initial priming about all concepts in the test
 
 ### 27/jan/2024 (Practice Day)
+- [ ] Create key questions about [Azure Container Instances](Azure%20Container%20Instances)
+- [ ] Go through the Container Instances Learning Path
+- [ ] Create a Container Instance resource in my practice Azure Environment
 - [ ] Take the practice assessment
 - [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
 ### 26/jan/2024
-- [ ] Create key questions about [Azure Container Apps](Azure%20Container%20Apps)
-- [ ] Go through the Container Apps Learning Path
-- [ ] Create a Container Apps resource in my practice Azure Environment
+- [x] Create key questions about [Azure Container Apps](Azure%20Container%20Apps)
+- [x] Go through the Container Apps Learning Path
+- [x] Create a Container Apps resource in my practice Azure Environment
 ### 25/jan/2024
 - [x] Create a cosmos db account in the practice azure environment
 - [x] Go through the [Work with Azure Cosmos DB - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/) module
