@@ -16,9 +16,10 @@ Current state of the vault:
 	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
 ### 27/jan/2024 (Practice Day)
-- [ ] Create key questions about [Azure Container Registry](Azure%20Container%20Registry)
-- [ ] Go through the Container Registry Learning Path
-- [ ] Create a Container Registry resource in my practice Azure Environment
+- [x] Create key questions about [Azure Container Registry](Azure%20Container%20Registry)
+- [x] Go through the Container Registry Learning Path
+- [x] Create a Container Registry resource in my practice Azure Environment
+- [x] Answer my key questions about azure container registry
 - [ ] Take the practice assessment
 - [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
 - [ ] Go through the [Azure Container Apps](Azure%20Container%20Apps.md) Applied Skills learning paths and try to get the certification

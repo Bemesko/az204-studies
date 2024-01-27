@@ -1,6 +1,13 @@
 ## Sources
+- [Preparing for AZ-204 - Develop Azure compute solutions (1 of 5) | Microsoft Learn](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-azure-compute-solutions-1-of-5)
 - [Manage container images in Azure Container Registry - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/)
-
+- [Registry service tiers and features - Azure Container Registry | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus#service-tier-features-and-limits)
+- [Store Helm charts - Azure Container Registry | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-helm-repos)
+- [Dockerfile reference | Docker Docs](https://docs.docker.com/engine/reference/builder/)
+- [Running containers | Docker Docs](https://docs.docker.com/engine/reference/run/)
+- [docker build | Docker Docs](https://docs.docker.com/engine/reference/commandline/image_build/)
+- [image-spec/spec.md at main · opencontainers/image-spec (github.com)](https://github.com/opencontainers/image-spec/blob/main/spec.md)
+- [Policy to retain untagged manifests - Azure Container Registry | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-retention-policy)
 ## Key Questions
 - What is Azure Container Registry?
 - When should I use container registry?
@@ -19,6 +26,46 @@
 - What are the limitations of storing images in ACR?
 - How do I manage artifacts in an ACR repository
 ### My Answers
+- What is Azure Container Registry?
+	- Azure hosted thing to store docker images, helm charts and other artifacts, privately
+- When should I use container registry?
+	- I need a private container registry in which to store my images and I don't want to manage my own infrastructure to do so
+- Why should I use container registry instead of Docker Hub or other alternatives?
+	- Container registry is private, replicates images between paired regions, encrypts everything at rest, has native build automations and the cli can be used to build images in the cloud without having to run docker on your machine
+- What are ACR tasks?
+	- ACR solution to build automation. Pretty handy if your goal is to build and push docker images
+- What are quick tasks? When should I use them?
+	- Quick tasks are called by running `az acr build` on the command line and replace `docker build` and `docker push`. Also the build runs in a cloud agent
+- What are automatically triggered tasks? When should I use them?
+	- Automatically triggered tasks can be useful to keep images updated without much maintenance overhead or explicit action by the developers
+- What are the types of automatically triggered tasks and why are they useful?
+	- source code: trigger at every commit in a repository. Useful for continuous delivery
+	- base image: tracks the base image of other images in your repository and rebuilds them if the base image is updated
+	- timer-based: run on a timer
+- What are multi-step tasks? When should I use them?
+	- You can define multi-step tasks with a yaml configuration and they can be used for running more complex workflows with docker images and helm charts.
+	- Example: build an app image and a test image. Run the test image using the contents from the app image. If everything succeeds, publish and upgrade a new version of a helm chart
+- What are YAML configuration files used for in ACR?
+	- Defining the steps in multi step tasks
+- What are the different service tiers?
+	- Basic, standard, premium
+- When should I use each service tier?
+	- Basic is for testing and smaller environments
+	- Standard is if you don't want to pay a lot of money but still need more storage than basic
+	- Premium has private VNET integration, geo replication for images, tag signing and other stuff
+- How does pricing work?
+	- Every tier has a fixed price, so you pay based on how much that tier costs
+	- You can also pay for additional storage.
+	- Also, you get billed a bit by every second of the build agents you use
+- What are supported images and artifacts? When should I use them?
+	- Docker image
+	- Helm charts
+	- OCI images for non docker stuff
+- What are the limitations of storing images in ACR?
+	- Image layers can be at most 200GB and the manifests need to be smaller than 4MB
+- How do I manage artifacts in an ACR repository
+	- You need to periodically delete unused repositories
+	- You can also set retention policies for images
 
 ---
 ## Notes from Learning Path
@@ -52,4 +99,10 @@
 	- Timer triggered: self-explanatory
 - Multi step tasks
 	- Prety much a full pipeline that can build and run docker images, publish and upgrade helm charts, etc
-### Platforms
+
+## ACR vs. Docker Hub
+- Private Images
+- Encryption at rest (though I'm not sure if docker hub also encrypts)
+- Building and running containers in the cloud
+- Geo replication
+- ACR Tasks included
