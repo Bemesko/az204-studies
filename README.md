@@ -9,13 +9,19 @@ Current state of the vault:
 - Listen to my AZ204 YouTube playlist during my downtime
 - Watch the Microsoft Learning Path modules, doing the ones I'm not familiar with first; Avoid writing too many notes, only questions
 - [x] Initial priming about all concepts in the test
+- [ ] Do relevant Microsoft Applied Skills Assessments
+	- [ ] [Azure Container Apps](Azure%20Container%20Apps.md) + [Azure Container Registry](Azure%20Container%20Registry): [Deploy cloud-native apps using Azure Container Apps - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-cloud-native-apps-using-azure-container-apps/)
+	- [ ] [Azure Blob Storage](Azure%20Blob%20Storage): [Secure storage for Azure Files and Azure Blob Storage - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/secure-storage-azure-files-azure-blob-storage/)
+	- [ ] [[Azure Monitor]]: https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-and-configure-azure-monitor/
+	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
 ### 27/jan/2024 (Practice Day)
-- [ ] Create key questions about [Azure Container Instances](Azure%20Container%20Instances)
-- [ ] Go through the Container Instances Learning Path
-- [ ] Create a Container Instance resource in my practice Azure Environment
+- [ ] Create key questions about [Azure Container Registry](Azure%20Container%20Registry)
+- [ ] Go through the Container Registry Learning Path
+- [ ] Create a Container Registry resource in my practice Azure Environment
 - [ ] Take the practice assessment
 - [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
+- [ ] Go through the [Azure Container Apps](Azure%20Container%20Apps.md) Applied Skills learning paths and try to get the certification
 ### 26/jan/2024
 - [x] Create key questions about [Azure Container Apps](Azure%20Container%20Apps)
 - [x] Go through the Container Apps Learning Path

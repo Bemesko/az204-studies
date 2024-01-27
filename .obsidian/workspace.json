@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AZ-204.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AZ-204.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AZ-204.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AZ-204.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "7aac862683287ada",
   "lastOpenFiles": [
+    "AZ-204.md",
     "README.md",
+    "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
     "media/Pasted image 20240126093048.png",
     "Azure Container Apps.md",
-    "AZ-204.md",
     "media/Pasted image 20240126091547.png",
     "media/Pasted image 20240126091141.png",
     "Develop Azure compute solutions (25–30%).md",
@@ -166,7 +167,6 @@
     "Develop for Azure storage (15–20%).md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
     "Troubleshoot solutions by using Application Insights.md",
-    "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
     "Implement Azure security (20–25%).md",
     "media",
     "Develop solutions that use Azure Cosmos DB.md",
