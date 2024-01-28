@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "27de0c4a93a90594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md"
               }
             }
           }
@@ -146,10 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c228c31dea3f613",
+  "active": "27de0c4a93a90594",
   "lastOpenFiles": [
-    "AZ-204.md",
     "README.md",
+    "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
+    "media/Pasted image 20240128132527.png",
+    "media/Pasted image 20240128130834.png",
+    "media/Pasted image 20240128125335.png",
+    "media/Pasted image 20240128125131.png",
+    "media/Pasted image 20240128120040.png",
+    "media/Pasted image 20240128113025.png",
+    "media/Pasted image 20240128112608.png",
+    "media/Pasted image 20240128111413.png",
+    "Azure Container Apps.md",
+    "AZ-204.md",
     "media/Pasted image 20240127093300.png",
     "Azure Container Registry.md",
     "labs/learningpath-acr/az-cli.ps1",
@@ -159,16 +182,7 @@
     "Develop Azure compute solutions (25–30%).md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
     "media/Pasted image 20240126093048.png",
-    "Azure Container Apps.md",
-    "media/Pasted image 20240126091547.png",
-    "media/Pasted image 20240126091141.png",
-    "media/Pasted image 20240126074809.png",
-    "media/Pasted image 20240126074803.png",
     "Azure Cosmos DB.md",
-    "media/Pasted image 20240125093119.png",
-    "media/Pasted image 20240125083319.png",
-    "media/Pasted image 20240124090144.png",
-    "media/Pasted image 20240124085644.png",
     "Develop for Azure storage (15–20%).md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
     "Troubleshoot solutions by using Application Insights.md",
@@ -186,7 +200,6 @@
     "Implement containerized solutions.md",
     "Implement Azure Functions.md",
     "Implement Azure App Service Web Apps.md",
-    "Untitled 1.md",
-    "Untitled.md"
+    "Untitled 1.md"
   ]
 }
