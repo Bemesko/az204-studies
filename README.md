@@ -16,7 +16,8 @@ Current state of the vault:
 	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
 ### 28/jan/2024
-- [ ] Go through the [Azure Container Apps](Azure%20Container%20Apps.md) Applied Skills learning paths
+- [x] Go through the [Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps](Microsoft%20Applied%20Skills%20-%20Deploy%20cloud-native%20apps%20using%20Azure%20Container%20Apps.md) learning path
+- [ ] Go through the azure container apps guided project
 - [ ] Take the applied skills test
 - [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
 ### 27/jan/2024 (Practice Day)

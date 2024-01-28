@@ -34,6 +34,27 @@
 - [Connect a container app to a cloud service with Service Connector | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/service-connector?tabs=azure-portal)
 - [Quickstart: Deploy your first container app using the Azure portal | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/quickstart-portal)
 - [Deploy Azure Container Apps with the az containerapp up command | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/containerapp-up)
+### Azure Pipelines
+- [Code to cloud options in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/code-to-cloud-options)
+- [Publish revisions with Azure Pipelines in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/azure-pipelines)
+- [Publish revisions with GitHub Actions in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/github-actions)
+- [What is Azure DevOps? - Azure DevOps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
+- [What is Azure Pipelines? - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
+- [Azure Pipelines Agents - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=yaml%2Cbrowser)
+- [Deploy an Azure Pipelines agent on Windows - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/windows-agent?view=azure-devops)
+- [Azure Container Apps image pull from Azure Container Registry with managed identity | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/managed-identity-image-pull?tabs=azure-cli&pivots=azure-portal)
+- [Build and Release Tasks - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/tasks?view=azure-devops&tabs=yaml)
+- [Azure Pipelines task reference | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/?view=azure-pipelines)
+- [Define variables - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
+- [Set secret variables - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables?view=azure-devops&tabs=yaml%2Cbash)
+### App Lifecycle Management
+- [Update and deploy changes in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/revisions)
+- [Manage revisions in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/revisions-manage?tabs=bash)
+- [Application lifecycle management in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/application-lifecycle-management)
+- [Scaling in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/scale-app?pivots=azure-cli)
+- [Ingress in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/ingress-overview)
+- [Traffic splitting in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/traffic-splitting?pivots=azure-cli)[Blue-Green Deployment in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment?pivots=azure-cli)
+- [Blue-Green Deployment in Azure Container Apps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment?pivots=azure-cli)
 
 ---
 ## Getting Started
@@ -105,3 +126,71 @@
 	- Target: Usually a complementary service such as a database or cache storage
 	- Client Type: How the connection will be handled (environment variables, connection strings)
 	- Authentication Method: Managed identity, connection string or service principal
+
+## Continuous Deployment with Azure Pipelines
+- container apps task
+### Agents
+- token scopes for agents: **Agent Pools (read, manage)** and **Deployment group (read, manage)** scopes.
+### Environments and Secrets
+- secrets can be set at the pipeline scope using the UI, but it's better to use variable groups
+
+## Managing Azure Container Apps
+### Revisions
+- uses for revisions
+	- Mark the historical changes that happened in an app
+	- Traffic splitting for A/B testing or blue green deployments
+	- Quick rollbacks to stable versions
+- revision modes
+	- Single revision: one revision active at a time
+	- Multiple: traffic is split between several revisions
+- revision labels
+	- Labels can be applied to one revision at a time and have an unique URL
+	- Can be useful to redirect a certain group of users to a specific label (e.g. "dev", "stage")
+	- Labels work best in conjunction with Multiple Revision mode
+- traffic splitting
+	- If apps are exposed through an external ingress you can setup how much traffic will be routed to each revision
+- custom revision names
+	- Revisions usually get assigned an auto generated name but you can specify it as well
+### Container App Lifecycle
+- Deployment
+	- A new revision is created, the app is deployed and starts running
+- Update
+	- The app gets a new revision. Depending on the revision mode, the new revision will be deployed alongside the old one or will replace it
+	- Zero downtime deployments -> if the revision mode is Single, the previous revision will only be deactivated when the new revision is already up and running
+- Deactivation
+	- Revisions can be deactivated manually or using rules to deactivate unused revisions
+- Shutdown
+	- The app can shutdown either by its revision being deactivated or by errors
+### Scaling Options
+- changing scaling rules creates new revisions
+- horizontal scaling and replicas: each time a new instance of a revision is created, it exists in a new replica
+- limits
+	- minimum and maximum number of replicas for a revision
+- rules
+	- http
+		- amount of simultaneous HTTP connections before scaling
+	- tcp
+		- amount of simulatneous TCP connections before scaling
+	- custom
+		- any KEDA supported scaler as well as CPU and Memory
+	- multiple scale rules: multiple rules are treated with an OR instead of AND, so only one needs to be active to scale up
+- behaviors
+	- each behavior can be customized for the app
+	- polling interval: 
+	- cooldown period: 
+	- scale up stabilization window
+	- scale down stabilization window
+	- scale up step
+	- scale down step
+	- scaling algorithm
+### Ingress Settings for HTTP Splitting and Bluegreen
+- traffic splitting: setting up a percentage for traffic to be redirected to each active revision
+- bluegreen deployments: combining revisions, traffic weights and labels to have a blue and a green environment, in which one is stable and the other is updated and tested before becoming the new stable
+- direct revision access: can be setup to redirect users to a specific revision
+- change types
+	- revision scope: create new revisions
+		- changes in the container
+		- changes in scaling rules
+	- application scope: apply to all revisions at once
+		- changing secrets
+		- ingress settings
