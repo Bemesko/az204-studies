@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7d4ba35b6b20c032",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d4ba35b6b20c032",
+  "active": "7aac862683287ada",
   "lastOpenFiles": [
+    "media/Pasted image 20240128194847.png",
+    "README.md",
+    "AZ-204.md",
     "labs/appliedskillslab-aca/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.csproj.FileListAbsolute.txt",
@@ -171,9 +161,7 @@
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.dll",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.MvcApplicationPartsAssemblyInfo.cache",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.MvcApplicationPartsAssemblyInfo.cs",
-    "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.csproj.CoreCompileInputs.cache",
     "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
-    "README.md",
     "media/Pasted image 20240128132527.png",
     "media/Pasted image 20240128130834.png",
     "media/Pasted image 20240128125335.png",
@@ -183,7 +171,6 @@
     "media/Pasted image 20240128112608.png",
     "media/Pasted image 20240128111413.png",
     "Azure Container Apps.md",
-    "AZ-204.md",
     "media/Pasted image 20240127093300.png",
     "Azure Container Registry.md",
     "Develop Azure compute solutions (25–30%).md",

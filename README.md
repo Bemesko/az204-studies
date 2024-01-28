@@ -1,25 +1,27 @@
 This is the Obsidian vault I'm using to study for the [[AZ-204]] Microsoft exam. I'll be updating it with my notes and use them to try to make sense of it all.
 
-Days until exam: 33
+Days until exam: 32
 
 Current state of the vault:
-![](media/Pasted%20image%2020240127093300.png)
+![](media/Pasted%20image%2020240128194847.png)
 ## Study Stages
 - Take at least 1 practice assesment per week
 - Listen to my AZ204 YouTube playlist during my downtime
 - Watch the Microsoft Learning Path modules, doing the ones I'm not familiar with first; Avoid writing too many notes, only questions
 - [x] Initial priming about all concepts in the test
 - [ ] Do relevant Microsoft Applied Skills Assessments
-	- [ ] [Azure Container Apps](Azure%20Container%20Apps.md) + [Azure Container Registry](Azure%20Container%20Registry): [Deploy cloud-native apps using Azure Container Apps - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-cloud-native-apps-using-azure-container-apps/) [[Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps]]
+	- [x] [Azure Container Apps](Azure%20Container%20Apps.md) + [Azure Container Registry](Azure%20Container%20Registry): [Deploy cloud-native apps using Azure Container Apps - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-cloud-native-apps-using-azure-container-apps/) [[Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps]]
 	- [ ] [Azure Blob Storage](Azure%20Blob%20Storage): [Secure storage for Azure Files and Azure Blob Storage - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/secure-storage-azure-files-azure-blob-storage/)
 	- [ ] [[Azure Monitor]]: https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-and-configure-azure-monitor/
 	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
+## 29/jan/2024
+- [ ] Study [Azure Container Instances](Azure%20Container%20Instances)
+- [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
 ### 28/jan/2024
 - [x] Go through the [Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps](Microsoft%20Applied%20Skills%20-%20Deploy%20cloud-native%20apps%20using%20Azure%20Container%20Apps.md) learning path
-- [ ] Go through the azure container apps guided project
-- [ ] Take the applied skills test
-- [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
+- [x] Go through the azure container apps guided project
+- [x] Take the applied skills test
 ### 27/jan/2024 (Practice Day)
 - [x] Create key questions about [Azure Container Registry](Azure%20Container%20Registry)
 - [x] Go through the Container Registry Learning Path
