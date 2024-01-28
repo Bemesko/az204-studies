@@ -161,6 +161,8 @@
   },
   "active": "7d4ba35b6b20c032",
   "lastOpenFiles": [
+    "labs/appliedskillslab-aca/Dockerfile",
+    "labs/appliedskillslab-aca/APL2003/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.csproj.FileListAbsolute.txt",
     "labs/appliedskillslab-aca/APL2003/bin/Debug/net7.0/APL2003.pdb",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/ref/APL2003.dll",
@@ -170,8 +172,6 @@
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.MvcApplicationPartsAssemblyInfo.cache",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.MvcApplicationPartsAssemblyInfo.cs",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.csproj.CoreCompileInputs.cache",
-    "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.AssemblyInfo.cs",
-    "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.AssemblyInfoInputs.cache",
     "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
     "README.md",
     "media/Pasted image 20240128132527.png",
