@@ -1,9 +1,9 @@
 This is the Obsidian vault I'm using to study for the [[AZ-204]] Microsoft exam. I'll be updating it with my notes and use them to try to make sense of it all.
 
-Days until exam: 32
+Days until exam: 31
 
 Current state of the vault:
-![](media/Pasted%20image%2020240128194847.png)
+![](media/Pasted%20image%2020240129095531.png)
 ## Study Stages
 - Take at least 1 practice assesment per week
 - Listen to my AZ204 YouTube playlist during my downtime
@@ -15,9 +15,19 @@ Current state of the vault:
 	- [ ] [[Azure Monitor]]: https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-and-configure-azure-monitor/
 	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
-## 29/jan/2024
-- [ ] Study [Azure Container Instances](Azure%20Container%20Instances)
+## 03/feb/2024 (Practice Day)
 - [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
+- [ ] Go through the [[Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage]] learning path
+- [ ] Go through the azure storage guided project
+- [ ] Take the applied skills test
+## 30/jan/2024
+- [ ] Write key questions about [Microsoft Identity Platform](Microsoft%20Identity%20Platform)
+- [ ] Go through the identity platform learning path
+- [ ] Answer key questions
+## 29/jan/2024
+- [x] Write key questions about [Azure Container Instances](Azure%20Container%20Instances.md)
+- [x] Go through the container instances learning path
+- [x] Answer questions
 ### 28/jan/2024
 - [x] Go through the [Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps](Microsoft%20Applied%20Skills%20-%20Deploy%20cloud-native%20apps%20using%20Azure%20Container%20Apps.md) learning path
 - [x] Go through the azure container apps guided project

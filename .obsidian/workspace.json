@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "62bf7cff02110eff",
+        "id": "1cd39c6160ba17ac",
         "type": "tabs",
         "children": [
           {
-            "id": "7aac862683287ada",
+            "id": "3802772fbdda3c43",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7aac862683287ada",
+  "active": "3802772fbdda3c43",
   "lastOpenFiles": [
-    "media/Pasted image 20240128194847.png",
-    "README.md",
     "AZ-204.md",
+    "README.md",
+    "media/Pasted image 20240129095531.png",
+    "Azure Container Instances.md",
+    "Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage.md",
+    "media/Pasted image 20240129084300.png",
+    "media/Pasted image 20240129084243.png",
+    "Azure Container Apps.md",
+    "media/Pasted image 20240128194847.png",
     "labs/appliedskillslab-aca/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.csproj.FileListAbsolute.txt",
@@ -168,21 +174,15 @@
     "media/Pasted image 20240128125131.png",
     "media/Pasted image 20240128120040.png",
     "media/Pasted image 20240128113025.png",
-    "media/Pasted image 20240128112608.png",
-    "media/Pasted image 20240128111413.png",
-    "Azure Container Apps.md",
-    "media/Pasted image 20240127093300.png",
     "Azure Container Registry.md",
     "Develop Azure compute solutions (25–30%).md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
-    "media/Pasted image 20240126093048.png",
     "Azure Cosmos DB.md",
     "Develop for Azure storage (15–20%).md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
     "Troubleshoot solutions by using Application Insights.md",
     "Implement Azure security (20–25%).md",
     "Develop solutions that use Azure Cosmos DB.md",
-    "Azure Container Instances.md",
     "Develop message-based solutions.md",
     "Develop event-based solutions.md",
     "Implement API Management.md",
@@ -192,7 +192,6 @@
     "Develop solutions that use Azure Blob Storage.md",
     "Implement containerized solutions.md",
     "Implement Azure Functions.md",
-    "Implement Azure App Service Web Apps.md",
-    "Untitled 1.md"
+    "Implement Azure App Service Web Apps.md"
   ]
 }
