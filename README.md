@@ -1,9 +1,9 @@
 This is the Obsidian vault I'm using to study for the [[AZ-204]] Microsoft exam. I'll be updating it with my notes and use them to try to make sense of it all.
 
-Days until exam: 31
+Days until exam: 30
 
 Current state of the vault:
-![](media/Pasted%20image%2020240129095531.png)
+![](media/Pasted%20image%2020240130085229.png)
 ## Study Stages
 - Take at least 1 practice assesment per week
 - Listen to my AZ204 YouTube playlist during my downtime
@@ -20,10 +20,14 @@ Current state of the vault:
 - [ ] Go through the [[Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage]] learning path
 - [ ] Go through the azure storage guided project
 - [ ] Take the applied skills test
+### 31/jan/2024
+- [ ] Write key questions about [Azure Blob Storage](Azure%20Blob%20Storage)
+- [ ] Go through the blob storage learning path
+- [ ] answer key questions
 ## 30/jan/2024
-- [ ] Write key questions about [Microsoft Identity Platform](Microsoft%20Identity%20Platform)
-- [ ] Go through the identity platform learning path
-- [ ] Answer key questions
+- [x] Write key questions about [Microsoft Identity Platform](Microsoft%20Identity%20Platform)
+- [x] Go through the identity platform learning path
+- [x] Answer key questions
 ## 29/jan/2024
 - [x] Write key questions about [Azure Container Instances](Azure%20Container%20Instances.md)
 - [x] Go through the container instances learning path

@@ -148,8 +148,13 @@
   },
   "active": "3802772fbdda3c43",
   "lastOpenFiles": [
-    "AZ-204.md",
+    "media/Pasted image 20240130085229.png",
     "README.md",
+    "AZ-204.md",
+    "Microsoft Identity Platform.md",
+    "media/Pasted image 20240130084949.png",
+    "Implement secure Azure solutions.md",
+    "media/Pasted image 20240130072607.png",
     "media/Pasted image 20240129095531.png",
     "Azure Container Instances.md",
     "Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage.md",
@@ -172,8 +177,6 @@
     "media/Pasted image 20240128130834.png",
     "media/Pasted image 20240128125335.png",
     "media/Pasted image 20240128125131.png",
-    "media/Pasted image 20240128120040.png",
-    "media/Pasted image 20240128113025.png",
     "Azure Container Registry.md",
     "Develop Azure compute solutions (25–30%).md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
@@ -187,11 +190,9 @@
     "Develop event-based solutions.md",
     "Implement API Management.md",
     "Implement caching for solutions.md",
-    "Implement secure Azure solutions.md",
     "Implement user authentication and authorization.md",
     "Develop solutions that use Azure Blob Storage.md",
     "Implement containerized solutions.md",
-    "Implement Azure Functions.md",
-    "Implement Azure App Service Web Apps.md"
+    "Implement Azure Functions.md"
   ]
 }
