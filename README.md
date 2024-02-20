@@ -1,6 +1,6 @@
 This is the Obsidian vault I'm using to study for the [[AZ-204]] Microsoft exam. I'll be updating it with my notes and use them to try to make sense of it all.
 
-Days until exam: 30
+Days until exam: 29
 
 Current state of the vault:
 ![](media/Pasted%20image%2020240130085229.png)
@@ -15,15 +15,13 @@ Current state of the vault:
 	- [ ] [[Azure Monitor]]: https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-and-configure-azure-monitor/
 	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
-## 03/feb/2024 (Practice Day)
-- [ ] Do the exercises using the Cosmos DB Python SDK (since it's what I'm going to be tested with): [Quickstart - Python client library - Azure Cosmos DB for NoSQL | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-python?pivots=devcontainer-codespace)
-- [ ] Go through the [[Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage]] learning path
-- [ ] Go through the azure storage guided project
-- [ ] Take the applied skills test
-### 02/feb/2024
-- [ ] Write key questions about [Azure Blob Storage](Azure%20Blob%20Storage)
-- [ ] Go through the blob storage learning path
-- [ ] answer key questions
+## 21/feb/2024
+- [ ] Do the [Microsoft Authentication Library](Microsoft%20Authentication%20Library.md) Learning Path and Exercises
+- [ ] Write and Answer Key Questions
+## 20/feb/2024
+- [x] Review contents from AZ204T00A
+- [x] Catalog all labs from the lab repository
+	- See the AZ204T00A exam datasheet, apendix B for the full relationship between learning paths and labs
 ## 30/jan/2024
 - [x] Write key questions about [Microsoft Identity Platform](Microsoft%20Identity%20Platform)
 - [x] Go through the identity platform learning path
