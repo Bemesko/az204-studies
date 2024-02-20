@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AZ-204.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AZ-204.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AZ-204.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AZ-204.md"
               }
             }
           }
@@ -148,20 +148,25 @@
   },
   "active": "3802772fbdda3c43",
   "lastOpenFiles": [
-    "media/Pasted image 20240130085229.png",
     "README.md",
+    "Azure Blob Storage.md",
     "AZ-204.md",
+    "Develop for Azure storage (15–20%).md",
+    "media/Pasted image 20240202080448.png",
+    "media/Pasted image 20240202080430.png",
+    "media/Pasted image 20240202080403.png",
+    "media/Pasted image 20240202080343.png",
+    "media/Pasted image 20240202080335.png",
+    "media/Pasted image 20240202080309.png",
+    "media/Pasted image 20240202080229.png",
+    "media/Pasted image 20240130085229.png",
     "Microsoft Identity Platform.md",
     "media/Pasted image 20240130084949.png",
     "Implement secure Azure solutions.md",
     "media/Pasted image 20240130072607.png",
-    "media/Pasted image 20240129095531.png",
     "Azure Container Instances.md",
     "Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage.md",
-    "media/Pasted image 20240129084300.png",
-    "media/Pasted image 20240129084243.png",
     "Azure Container Apps.md",
-    "media/Pasted image 20240128194847.png",
     "labs/appliedskillslab-aca/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/Dockerfile",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.csproj.FileListAbsolute.txt",
@@ -173,15 +178,10 @@
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.MvcApplicationPartsAssemblyInfo.cache",
     "labs/appliedskillslab-aca/APL2003/obj/Debug/net7.0/APL2003.MvcApplicationPartsAssemblyInfo.cs",
     "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
-    "media/Pasted image 20240128132527.png",
-    "media/Pasted image 20240128130834.png",
-    "media/Pasted image 20240128125335.png",
-    "media/Pasted image 20240128125131.png",
     "Azure Container Registry.md",
     "Develop Azure compute solutions (25–30%).md",
     "Monitor, troubleshoot, and optimize Azure solutions (15–20%).md",
     "Azure Cosmos DB.md",
-    "Develop for Azure storage (15–20%).md",
     "Connect to and consume Azure services and third-party services (15–20%).md",
     "Troubleshoot solutions by using Application Insights.md",
     "Implement Azure security (20–25%).md",
@@ -192,7 +192,6 @@
     "Implement caching for solutions.md",
     "Implement user authentication and authorization.md",
     "Develop solutions that use Azure Blob Storage.md",
-    "Implement containerized solutions.md",
-    "Implement Azure Functions.md"
+    "Implement containerized solutions.md"
   ]
 }

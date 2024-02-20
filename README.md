@@ -20,7 +20,7 @@ Current state of the vault:
 - [ ] Go through the [[Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage]] learning path
 - [ ] Go through the azure storage guided project
 - [ ] Take the applied skills test
-### 31/jan/2024
+### 02/feb/2024
 - [ ] Write key questions about [Azure Blob Storage](Azure%20Blob%20Storage)
 - [ ] Go through the blob storage learning path
 - [ ] answer key questions
