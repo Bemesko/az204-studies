@@ -34,18 +34,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c214cebcfa518e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Microsoft Authentication Library.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -176,9 +164,21 @@
   },
   "active": "7aac862683287ada",
   "lastOpenFiles": [
+    "labs/az204-lab02/func/bin/output/extensions.json",
+    "labs/az204-lab02/func/bin/output/worker.config.json",
+    "labs/az204-lab02/func/bin/output/functions.metadata",
+    "labs/az204-lab02/func/bin/output/System.Memory.Data.dll",
+    "labs/az204-lab02/func/bin/output/System.Diagnostics.EventLog.dll",
+    "labs/az204-lab02/func/bin/output/Microsoft.Extensions.Primitives.dll",
+    "labs/az204-lab02/func/bin/output/Microsoft.Extensions.Logging.Debug.dll",
+    "labs/az204-lab02/func/bin/output/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+    "labs/az204-lab02/func/bin/output/func.pdb",
+    "labs/az204-lab02/func/bin/output/Microsoft.Extensions.Logging.EventSource.dll",
+    "labs/az204-lab02/func/bin/output/Microsoft.Extensions.Logging.EventLog.dll",
     "AZ-204.md",
-    "README.md",
     "Microsoft Authentication Library.md",
+    "README.md",
+    "labs/az204-lab01/grilledcheese.jpg",
     "Microsoft Identity Platform.md",
     "Implement user authentication and authorization.md",
     "Azure Blob Storage.md",
@@ -191,17 +191,6 @@
     "media/Pasted image 20240202080229.png",
     "media/Pasted image 20240130085229.png",
     "media/Pasted image 20240130084949.png",
-    "media/Pasted image 20240130072607.png",
-    "labs/appliedskillslab-aca/APL2003/Properties/launchSettings.json",
-    "labs/appliedskillslab-aca/APL2003/Controllers/WeatherForecastController.cs",
-    "labs/appliedskillslab-aca/APL2003/WeatherForecast.cs",
-    "labs/appliedskillslab-aca/APL2003/Properties",
-    "labs/appliedskillslab-aca/APL2003/Program.cs",
-    "labs/appliedskillslab-aca/APL2003/Controllers",
-    "labs/appliedskillslab-aca/APL2003/appsettings.json",
-    "labs/appliedskillslab-aca/APL2003/appsettings.Development.json",
-    "labs/appliedskillslab-aca/APL2003/APL2003.csproj",
-    "labs/learningpath-acr/az-cli.ps1",
     "Microsoft Applied Skils - Secure storage for Azure Files and Azure Blob Storage.md",
     "Microsoft Applied Skills - Deploy cloud-native apps using Azure Container Apps.md",
     "Azure Container Registry.md",
@@ -220,7 +209,6 @@
     "Implement API Management.md",
     "Implement caching for solutions.md",
     "Implement secure Azure solutions.md",
-    "Develop solutions that use Azure Blob Storage.md",
-    "Implement containerized solutions.md"
+    "Develop solutions that use Azure Blob Storage.md"
   ]
 }

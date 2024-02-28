@@ -15,6 +15,9 @@ Current state of the vault:
 	- [ ] [[Azure Monitor]]: https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-and-configure-azure-monitor/
 	- [ ] [Azure App Service](Azure%20App%20Service): [Develop an ASP.NET Core web app that consumes an API - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/)
 
+#### Lab Ideas
+- Create a Container Function
+- Redo Lab 1 but with the backend as a Function
 ## 21/feb/2024
 - [ ] Do the [Microsoft Authentication Library](Microsoft%20Authentication%20Library.md) Learning Path and Exercises
 - [ ] Write and Answer Key Questions
